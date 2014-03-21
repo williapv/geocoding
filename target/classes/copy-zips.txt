@@ -1,4 +1,0 @@
-copy geoname_zip (country,postal_code,place_name,state_name,
-state_abbr,county_province,county_province_abbr,community_name,community_abbr,latitude,
-longitude,accuracy) from '/Users/paul/Downloads/zips/allCountries.txt' null as '';
-
