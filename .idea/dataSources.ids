@@ -2396,6 +2396,33 @@
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
+    <table name="geoname_zip" schema="public" catalog="geodb" type="TABLE">
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZ2VvbmFtZV96aXBfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="country" sqlType="varchar" length="2" precision="0" nullable="true" jdbcType="12"/>
+      <column name="postal_code" sqlType="varchar" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="place_name" sqlType="varchar" length="180" precision="0" nullable="true" jdbcType="12"/>
+      <column name="state_name" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="state_abbr" sqlType="varchar" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="county_province" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="county_province_abbr" sqlType="varchar" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="community_name" sqlType="varchar" length="100" precision="0" nullable="true" jdbcType="12"/>
+      <column name="community_abbr" sqlType="varchar" length="20" precision="0" nullable="true" jdbcType="12"/>
+      <column name="latitude" sqlType="float8" length="17" precision="17" nullable="true" jdbcType="8"/>
+      <column name="longitude" sqlType="float8" length="17" precision="17" nullable="true" jdbcType="8"/>
+      <column name="accuracy" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="geoname_zip_id_seq" schema="public" catalog="geodb" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
     <table name="rastbandarg" schema="public" catalog="geodb" type="TYPE">
       <column name="rast" sqlType="raster" length="2147483647" precision="0" nullable="true" jdbcType="1111"/>
       <column name="nband" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>

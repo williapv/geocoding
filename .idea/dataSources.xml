@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2030255564">
+  <component name="DataSourceManagerImpl" format="xml" hash="460913536">
     <data-source source="LOCAL" name="PostgreSQL - geodb@localhost" uuid="cc8ca34e-02b9-4ed6-9c28-5a225e677342">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

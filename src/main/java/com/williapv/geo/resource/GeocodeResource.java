@@ -3,6 +3,7 @@ package com.williapv.geo.resource;
 import com.google.common.base.Optional;
 import com.williapv.geo.dao.GeoDAO;
 import com.williapv.geo.representation.GeonameZip;
+import com.williapv.geo.representation.State;
 import com.yammer.metrics.annotation.Timed;
 
 import javax.ws.rs.*;
@@ -39,9 +40,27 @@ public class GeocodeResource {
     @GET
     @Timed
     @Path("{country}")
-    public List<GeonameZip> getStates(@PathParam("country") String country) {
+    public List<State> getStates(@PathParam("country") String country) {
 
-            return dao.findStates(country);
+        return dao.findStates(country);
+
+    }
+
+    @GET
+    @Timed
+    @Path("{country}/{state}/cities")
+    public List<String> getStates(@PathParam("country") String country,@PathParam("state") String state) {
+
+        return dao.findCities(country,state);
+
+    }
+
+    @GET
+    @Timed
+    @Path("{country}/{state}/zips")
+    public List<String> getZips(@PathParam("country") String country,@PathParam("state") String state) {
+
+        return dao.findPostalCodes(country,state);
 
     }
 
