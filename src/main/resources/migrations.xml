@@ -1,0 +1,27 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <changeSet author="paul (generated)" id="1">
+        <createTable tableName="geoname_zip">
+            <column autoIncrement="true" name="id" type="serial">
+                <constraints nullable="false"/>
+            </column>
+            <column name="country" type="VARCHAR(2)"/>
+            <column name="postal_code" type="VARCHAR(20)"/>
+            <column name="place_name" type="VARCHAR(180)"/>
+            <column name="state_name" type="VARCHAR(100)"/>
+            <column name="state_abbr" type="VARCHAR(20)"/>
+            <column name="county_province" type="VARCHAR(100)"/>
+            <column name="county_province_abbr" type="VARCHAR(20)"/>
+            <column name="community_name" type="VARCHAR(100)"/>
+            <column name="community_abbr" type="VARCHAR(20)"/>
+            <column name="latitude" type="FLOAT8(17)"/>
+            <column name="longitude" type="FLOAT8(17)"/>
+            <column name="accuracy" type="int4"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

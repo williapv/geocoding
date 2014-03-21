@@ -7,7 +7,9 @@ import com.williapv.geo.resource.GeocodeResource;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
+import com.yammer.dropwizard.db.DatabaseConfiguration;
 import com.yammer.dropwizard.jdbi.DBIFactory;
+import com.yammer.dropwizard.migrations.MigrationsBundle;
 import org.skife.jdbi.v2.DBI;
 
 /**
@@ -22,6 +24,12 @@ public class GeocodeService extends Service<GeoConfig> {
     @Override
     public void initialize(Bootstrap<GeoConfig> bootstrap) {
         bootstrap.setName("hello-geo-world");
+        bootstrap.addBundle(new MigrationsBundle<GeoConfig>() {
+            @Override
+            public DatabaseConfiguration getDatabaseConfiguration(GeoConfig configuration) {
+                return configuration.getDatabaseConfiguration();
+            }
+        });
     }
 
     @Override

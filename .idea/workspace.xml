@@ -81,6 +81,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="25" selection-start="1401" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/config/GeoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GeoDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,7 +120,37 @@
       <file leaf-file-name="geo.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/geo.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="21" selection-start="185" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="675">
+            <state line="5" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeocodeService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="53" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="690">
+              <folding>
+                <element signature="e#894#1133#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrations.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genames-zip.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/genames-zip.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -111,7 +159,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="42" selection-start="763" selection-end="763" vertical-scroll-proportion="0.906801" vertical-offset="0" max-vertical-offset="480">
+            <state line="19" column="0" selection-start="438" selection-end="670" vertical-scroll-proportion="0.7178841" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -121,64 +169,6 @@
         <entry file="dbDummy://db-console:/1bd8b056/cc8ca34e-02b9-4ed6-9c28-5a225e677342/">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="36" selection-start="0" selection-end="99" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeocodeService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeonameZipMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeonameZipMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeocodeResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/resource/GeocodeResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="31" selection-start="1534" selection-end="1534" vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1110">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/representation/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/StateMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -201,23 +191,24 @@
         <option value="$PROJECT_DIR$/src/main/resources/geodb.yml" />
         <option value="$PROJECT_DIR$/src/geonames.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/config/GeodatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/geo.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/config/GeoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/representation/GeoRepresentation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeoName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeoNameMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java" />
         <option value="$PROJECT_DIR$/src/main/ddl.sql" />
         <option value="$PROJECT_DIR$/src/main/genames-zip.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/copy-zips.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/representation/GeonameRepresentation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeonameZipMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/representation/State.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/StateMapper.java" />
         <option value="db-console:/1bd8b056/cc8ca34e-02b9-4ed6-9c28-5a225e677342/" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/resource/GeocodeResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/GeoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/geo.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
         <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
@@ -316,6 +307,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocoding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,20 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/config/GeoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="21" selection-start="3247" selection-end="3733" vertical-scroll-proportion="-12.615385" vertical-offset="1007" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/healthcheck/GeoHealthCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="7" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
@@ -696,26 +759,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/representation/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +778,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/dao/StateMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="57" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -751,20 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/genames-zip.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="29" selection-end="350" vertical-scroll-proportion="0.5121951" vertical-offset="0" max-vertical-offset="410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/geo.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="185" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/copy-zips.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="82" selection-start="0" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -779,9 +814,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/geo.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/genames-zip.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="25" selection-start="1401" selection-end="1597" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/config/GeoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/williapv/geo/service/GeocodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="53" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="690">
+          <folding>
+            <element signature="e#894#1133#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="763" selection-end="763" vertical-scroll-proportion="0.906801" vertical-offset="0" max-vertical-offset="480">
+        <state line="19" column="0" selection-start="438" selection-end="670" vertical-scroll-proportion="0.7178841" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
