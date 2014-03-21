@@ -1,0 +1,27 @@
+/*  create the database */
+Create a postgres database called geodb
+
+create the table from the ddl
+
+src/main/resources/genames-zip.sql
+
+/* update the config or create your own */
+src/main/resources/geo.yml
+
+/* get zip code data for allCountries from geonames */
+http://download.geonames.org/export/zip/allCountries.zip
+
+/* copy the data over */
+copy geoname_zip (country,postal_code,place_name,state_name,
+state_abbr,county_province,county_province_abbr,community_name,community_abbr,latitude,
+longitude,accuracy) from '/Users/paul/Downloads/zips/allCountries.txt' null as '';
+
+/* make and run the app */
+mvn clean install
+java -jar target/geocoding-0.1-SNAPSHOT.jar server src/main/resources/geo.yml
+
+
+/* test the app */
+http://localhost:8080/geocode?name=Slidell
+http://localhost:8080/geocode/US/
+http://localhost:8080/geocode/US/MS/zips
