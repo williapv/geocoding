@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="geocoding:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="geocoding.war">
+      <element id="artifact" artifact-name="geocoding:war exploded" />
+    </root>
+  </artifact>
+</component>
